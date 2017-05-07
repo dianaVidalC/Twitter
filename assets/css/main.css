@@ -4,22 +4,17 @@
   box-sizing: border-box;
 }
 
-
-section{
-  width: 30%;
-  height: 20rem;
-  border: 1px solid gray;
-}
-
 body{
   background: #F5F8FA;
   font-family: 'Droid Sans', sans-serif;
+  color: #77848D;
 }
 
 header{
   background: #FFF;
   width: 100%;
   height: 2.9rem;
+  box-shadow: 0 2px 5px #CFD1D3;
 }
 
 header nav{
@@ -27,7 +22,7 @@ header nav{
   float: left;
   margin-right: 2rem;
   margin-left: 3rem;
-  margin-top: 0.5rem;
+  margin-top: 0.7rem;
 }
 
 header nav ul li{
@@ -38,7 +33,7 @@ header nav ul li{
 header nav ul li a{
   text-decoration: none;
   padding: 0 0.6rem;
-  color: #77848D;
+  color: #657786;
 }
 
 header nav ul li span{
@@ -87,6 +82,7 @@ div.buscar span{
   position: absolute;
   right: 0.3rem;
   top: 0.3rem;
+
 }
 
  img.imagen{
@@ -100,4 +96,103 @@ div.buscar span{
 img.twittear{
   position: absolute;
   top: -2px;;
+}
+
+
+section{
+  float: left;
+  width: 30%;
+  height: 20rem;
+  border: 1px solid gray;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+section.post{
+  float: left;
+  width: 35%;
+  height: 20rem;
+  border: 1px solid gray;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+section.datos{
+  position: relative;
+  float: left;
+  width: 18.125rem;
+  height: 20rem;
+  border: 1px solid gray;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+section div.perfil{
+  width: 100%;
+  height: 12.1875rem;
+  margin: 0 auto;
+  background: #FFF;
+  border-radius: 5px;
+}
+
+section.datos div.perfil div{
+  width: 100%;
+  height: 6.09375rem;
+}
+
+section.datos div.perfil div.imagen-perfil{
+  position: absolute;
+  top: 4rem;
+  left: 0.8rem;
+  width: 27%;
+  height: 25%;
+  border-radius: 10px;
+  background: #FFF;
+}
+
+div.imagen-perfil img{
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+  margin-left: 0.25rem;
+  margin-top: 0.25rem;
+}
+
+div.perfil div:first-child img{
+  width: 100%;
+  height: 100%;
+}
+
+div.perfil div.usuario div:first-child{
+  float: right;
+  width: 11.5rem;
+  height: 3rem;
+}
+div.perfil div.usuario div.nombres p:first-child{
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #000;
+}
+
+div.perfil div.usuario div.seguidores{
+  width: 100%;
+  height: 3rem;
+  clear: both;
+}
+
+div.perfil div.usuario div.seguidores div:first-child{
+  float: none;
+}
+
+div.perfil div.usuario div.seguidores div{
+    display: inline-block;
+    width: 4rem;
+    height: 3rem;
+    margin-left: 1rem;
+    font-size: 14px;
+}
+
+div.perfil div.usuario div.seguidores div p:nth-child(2){
+  color: #1B95E0;
+  font-size: 1rem;
+  font-weight: bold;
 }
