@@ -98,8 +98,7 @@ img.twittear{
   top: -2px;;
 }
 
-
-section{
+section.quien-seguir{
   float: left;
   width: 30%;
   height: 20rem;
@@ -121,17 +120,18 @@ section.datos{
   position: relative;
   float: left;
   width: 18.125rem;
-  height: 20rem;
-  border: 1px solid gray;
+  height: 46rem;
   margin-left: 3rem;
   margin-top: 1rem;
 }
-section div.perfil{
+
+section.datos div.perfil{
   width: 100%;
   height: 12.1875rem;
   margin: 0 auto;
   background: #FFF;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 section.datos div.perfil div{
@@ -144,7 +144,7 @@ section.datos div.perfil div.imagen-perfil{
   top: 4rem;
   left: 0.8rem;
   width: 27%;
-  height: 25%;
+  height: 11%;
   border-radius: 10px;
   background: #FFF;
 }
@@ -160,6 +160,7 @@ div.imagen-perfil img{
 div.perfil div:first-child img{
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }
 
 div.perfil div.usuario div:first-child{
@@ -171,6 +172,10 @@ div.perfil div.usuario div.nombres p:first-child{
   font-weight: bold;
   font-size: 1.3rem;
   color: #000;
+}
+
+div.perfil div.usuario div.nombres p:first-child:hover{
+  text-decoration: underline;
 }
 
 div.perfil div.usuario div.seguidores{
@@ -195,4 +200,33 @@ div.perfil div.usuario div.seguidores div p:nth-child(2){
   color: #1B95E0;
   font-size: 1rem;
   font-weight: bold;
+}
+
+section.datos div.tendencias{
+  height: 38.875rem;
+  border: 1px solid gray;
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+section.datos div.tendencias p:first-child{
+  font-size: 20px;
+}
+
+section.datos div.tendencias p.blue{
+  margin-top: 1rem;
+  font-weight: bold;
+}
+section.datos div.tendencias p{
+  font-size: 14px;
+}
+section.datos div.tendencias .blue{
+  color: #5AB2E8;
+  font-size: 15px;
+}
+
+section.datos div.tendencias .blue:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
