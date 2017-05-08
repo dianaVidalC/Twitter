@@ -75,7 +75,9 @@ div.buscar{
 div.buscar input{
   border: none;
   background: #F5F8FA;
-
+  width: 10.5rem;
+  height: 1.64rem;
+  padding: 0.4rem;
 }
 
 div.buscar span{
@@ -96,24 +98,6 @@ div.buscar span{
 img.twittear{
   position: absolute;
   top: -2px;;
-}
-
-section.quien-seguir{
-  float: left;
-  width: 30%;
-  height: 20rem;
-  border: 1px solid gray;
-  margin-left: 1rem;
-  margin-top: 1rem;
-}
-
-section.post{
-  float: left;
-  width: 35%;
-  height: 20rem;
-  border: 1px solid gray;
-  margin-left: 1rem;
-  margin-top: 1rem;
 }
 
 section.datos{
@@ -204,10 +188,11 @@ div.perfil div.usuario div.seguidores div p:nth-child(2){
 
 section.datos div.tendencias{
   height: 38.875rem;
-  border: 1px solid gray;
   margin-top: 1rem;
   border-radius: 5px;
   padding: 1rem;
+  background: #FFF;
+  border: 2px solid #F5F8FA;
 }
 
 section.datos div.tendencias p:first-child{
@@ -221,12 +206,142 @@ section.datos div.tendencias p.blue{
 section.datos div.tendencias p{
   font-size: 14px;
 }
-section.datos div.tendencias .blue{
+ .blue{
   color: #5AB2E8;
   font-size: 15px;
+  cursor: pointer;
+
 }
 
-section.datos div.tendencias .blue:hover{
+ .blue:hover{
   cursor: pointer;
   text-decoration: underline;
+}
+
+/*-----sección post----*/
+
+section.post{
+  float: left;
+  width: 36.8125rem;
+  height: 37.7rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  background: #FFFFFF;
+  border: 2px solid #F5F8FA;
+
+}
+
+section.post div.noticias{
+  position: relative;
+  height: 6.8125rem;
+  width: 100%;
+  border: 2px solid #F5F8FA;
+}
+
+section.post div.publicaciones{
+  padding: 1rem;
+}
+section.post div:first-child{
+  height: 3.5625rem;
+  padding: 1rem;
+  background: #E8F4FB;
+}
+
+section.post div:first-child img{
+  width: 2rem;
+  height: 2rem;
+  margin-top: -0.35rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+
+section.post div:first-child div{
+  position: relative;
+  float: right;
+  margin-right: 1rem;
+  display: inline-block;
+  width: 30rem;
+  height: 2.1rem;
+  margin-top: -0.35rem;
+  background:#F5F8FA;
+  border:1px solid #c6e4f7;
+  color:  #48AAE6;
+  border-radius: 2px;
+
+}
+section.post div:first-child input{
+  position: absolute;
+  border: none;
+  color:  #48AAE6;
+  background:#F5F8FA;
+  width: 90%;
+  height: 1.86rem;
+  font-size: 0.9rem;
+}
+
+section.post div:first-child span{
+  position: absolute;
+  right: 0.6rem;
+  top: 0.3rem;
+  font-size: 1.5rem;
+}
+
+section.post div.publicaciones img{
+  float: left;
+  margin-right: 1rem;
+  width: 3.5rem;
+  border-radius: 5px;
+}
+
+section.post div.publicaciones p{
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 0.2rem;
+}
+
+.strong{
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+}
+.strong:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+div.publicaciones div.iconos{
+  width: 18rem;
+  height: 1rem;
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+div.publicaciones div.iconos span{
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+
+span.icon-power{
+  color:#FFB243;
+}
+
+p#bloque{
+  display: block;
+}
+
+span.icon-chevron-thin-down{
+  position: absolute;
+  top:0.8rem;
+  right: 0.9rem;
+}
+
+/*----sección quién-seguir---*/
+section.quien-seguir{
+  float: left;
+  width: 20%;
+  height: 20rem;
+  border: 1px solid gray;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  background: #FFFFFF;
 }
