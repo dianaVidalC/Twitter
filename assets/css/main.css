@@ -213,7 +213,7 @@ section.datos div.tendencias p{
 
 }
 
- .blue:hover{
+.blue:hover{
   cursor: pointer;
   text-decoration: underline;
 }
@@ -344,4 +344,10 @@ section.quien-seguir{
   margin-left: 1rem;
   margin-top: 1rem;
   background: #FFFFFF;
+}
+
+section.quien-seguir div{
+  width: 100%;
+  height: 3rem;
+  border: 1px solid gray;
 }
